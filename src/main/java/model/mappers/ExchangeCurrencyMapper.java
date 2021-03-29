@@ -6,10 +6,6 @@ import java.util.Map;
 public class ExchangeCurrencyMapper {
     float exchangeRate;
 
-    public void setExchangeRate(float newExchangeRate){
-        this.exchangeRate = newExchangeRate;
-    }
-
     public float toDao(StringBuffer response) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
 

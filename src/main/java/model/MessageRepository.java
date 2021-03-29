@@ -29,7 +29,7 @@ public class MessageRepository {
         }
         System.out.println("----------------------------------------------------------------------------------");
         System.out.println("DISCOUNT                                       -" +  String.format("%.2f", message.discount));
-        System.out.println("TOTAL                                          £" + message.total);
+        System.out.println("TOTAL                                          £" + String.format("%.2f", message.total));
         System.out.println("----------------------------------------------------------------------------------");
         System.out.println("                                           USD  " + message.usdTotal + "$");
         System.out.println("                                           EUR  " + message.eurTotal + "€");
